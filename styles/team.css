@@ -1,0 +1,342 @@
+@font-face {
+  font-family: interbold;
+  src: url(../assets/fonts/Inter-Bold.ttf);
+}
+
+@font-face {
+  font-family: interlight;
+  src: url(../assets/fonts/Inter-Light.ttf);
+}
+
+@font-face {
+  font-family: interextrabold;
+  src: url(../assets/fonts/Inter-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: intermedium;
+  src: url(../assets/fonts/Inter-Medium.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+/* Header */
+
+header {
+  font-family: interbold;
+  background-color: #232323;
+  padding: 30px 20px 20px;
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  height: 85px;
+  z-index: 1000;
+}
+
+header li {
+  display: inline;
+  margin-left: 20px;
+}
+
+header li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  padding: 12px;
+  font-size: 1em;
+}
+
+header li a:hover {
+  color: orange;
+}
+
+header a img {
+  height: 45px;
+  width: 70px;
+  float: left;
+  margin-top: -10px;
+}
+
+.socialIconsHeader {
+  float: right;
+  margin-top: -50px;
+}
+
+.socialIconsHeader a {
+  text-decoration: none;
+  margin: 5px;
+  border-radius: 50%;
+}
+
+.socialIconsHeader a i {
+  font-size: 2em;
+  color: white;
+}
+
+.socialIconsHeader a:hover i {
+  color: black;
+}
+
+/* Main */
+
+main {
+  margin-top: 95px;
+  margin-bottom: 10px;
+}
+
+.headImageContainer {
+  margin-top: 25px;
+  font-family: interextrabold;
+  text-transform: uppercase;
+}
+
+.intro-text {
+  position: absolute;
+  top: 50%;
+  right: 55%;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+
+.headImageContainer h1 {
+  color: white;
+  font-size: 50px;
+}
+.headImageContainer p {
+  color: white;
+  font-size: 15px;
+}
+.headImageContainer img {
+  width: 95%;
+  height: 500px;
+  margin-left: 30px;
+}
+.imageFade {
+  position: absolute;
+  margin-top: -500px;
+  margin-left: 30px;
+  background-color: #232323;
+  opacity: 0.4;
+  width: 95%;
+  height: 500px;
+}
+
+/* Players Section */
+
+.playersContainer {
+  width: 95%;
+  height: 50%;
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  background-color: #232323;
+}
+
+.playerRow {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 30px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.playerFrame {
+  margin-left: 25px;
+  margin-right: 25px;
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  padding-top: 10px;
+}
+.playerFrameLast {
+  margin-left: 200px;
+  margin-right: 25px;
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  padding-top: 10px;
+}
+.playerFrameLast button {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  width: 50%;
+  height: 10%;
+  margin-left: 100px;
+}
+.playerFrameLast button a {
+  font-family: interbold;
+  text-decoration: none;
+  color: black;
+}
+.playerFrameLast img {
+  width: 95%;
+  height: 100%;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.playerFrame button {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  width: 50%;
+  height: 10%;
+  margin-left: 100px;
+}
+.playerFrame button a {
+  font-family: interbold;
+  text-decoration: none;
+  color: black;
+}
+
+.playerFrame img {
+  width: 95%;
+  height: 100%;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+/* Team Stats */
+
+.statsContainer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.image-stats img {
+  width: 600px;
+  height: 350px;
+}
+
+.image-stats h2 {
+  margin-top: 20px;
+  font-family: interextrabold;
+}
+
+.image-stats p {
+  margin-top: 20px;
+  font-family: interlight;
+}
+
+.image-stats button {
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: #232323;
+  border: none;
+  font-size: 17px;
+  padding: 12px 24px;
+}
+
+.image-stats button a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: interextrabold;
+}
+
+.image-stats button a:hover {
+  color: orange;
+}
+
+/* Coaches Section */
+.coachesSection {
+  margin-top: 6%;
+}
+
+.playersContainer h1 {
+  color: white;
+  text-align: center;
+  padding-top: 3%;
+}
+.playersContainer h3 {
+  color: white;
+}
+.playersContainer p {
+  color: white;
+}
+
+/* Footer */
+
+footer {
+  background-color: #232323;
+}
+
+.footerContainer {
+  width: 100%;
+  padding: 70px 20px 20px;
+}
+
+.footerNav {
+  margin: 30px 0;
+}
+
+.footerNav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.footerNav ul li a {
+  color: white;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3em;
+  font-family: interbold;
+}
+
+.footerNav ul li a:hover {
+  color: orange;
+}
+
+#footerBottom {
+  color: white;
+  padding: 10px;
+  font-size: 10px;
+  font-family: interlight;
+}
+
+.socialIconsFooter {
+  display: flex;
+  justify-content: center;
+}
+
+.socialIconsFooter a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.socialIconsFooter a i {
+  font-size: 2em;
+  color: black;
+  opacity: 0.9;
+}
+
+.socialIconsFooter a:hover {
+  background-color: #111;
+}
+
+.socialIconsFooter a:hover i {
+  color: white;
+}

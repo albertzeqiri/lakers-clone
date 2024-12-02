@@ -1,0 +1,335 @@
+@font-face {
+  font-family: interbold;
+  src: url(../assets/fonts/Inter-Bold.ttf);
+}
+
+@font-face {
+  font-family: interlight;
+  src: url(../assets/fonts/Inter-Light.ttf);
+}
+
+@font-face {
+  font-family: interextrabold;
+  src: url(../assets/fonts/Inter-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: intermedium;
+  src: url(../assets/fonts/Inter-Medium.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+/* Header */
+
+header {
+  font-family: interbold;
+  background-color: #232323;
+  padding: 30px 20px 20px;
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  height: 85px;
+  z-index: 1000;
+}
+
+header li {
+  display: inline;
+  margin-left: 20px;
+}
+
+header li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  padding: 12px;
+  font-size: 1em;
+}
+
+header li a:hover {
+  color: orange;
+}
+
+header a img {
+  height: 45px;
+  width: 70px;
+  float: left;
+  margin-top: -10px;
+}
+
+.socialIconsHeader {
+  float: right;
+  margin-top: -50px;
+}
+
+.socialIconsHeader a {
+  text-decoration: none;
+  margin: 5px;
+  border-radius: 50%;
+}
+
+.socialIconsHeader a i {
+  font-size: 2em;
+  color: white;
+}
+
+.socialIconsHeader a:hover i {
+  color: black;
+}
+
+/* Main */
+
+main {
+  margin-top: 95px;
+  margin-bottom: 10px;
+}
+
+hr {
+  height: 3px;
+  border: none;
+  background-color: black;
+  font-weight: bold;
+  background-color: rgb(255, 85, 0);
+}
+
+.margintop {
+  margin-top: 60px;
+  margin-left: 30px;
+}
+#schedule-2023-24 {
+  color: black;
+  font-size: 36px;
+  font-family: interextrabold;
+  text-align: center;
+  margin-left: 10px;
+}
+.border {
+  margin-top: 0px;
+  display: block;
+  border-color: #ffae00;
+  border-width: 1px;
+}
+
+.buttonSize {
+  width: 40px;
+  height: 40px;
+}
+
+.headStrip {
+  width: 95%;
+  height: 20%;
+  margin-left: 2.5%;
+  display: flex;
+  background-color: white;
+}
+
+/* Schedule Section */
+
+.entryContainer {
+  display: flex;
+  margin-top: 6%;
+  background-color: white;
+  width: 85%;
+  height: 20%;
+  border: 1px solid rgba(23, 23, 23, 0.6);
+  border-radius: 10px;
+  transform: translateX(8%);
+}
+.homeIndicator {
+  background-color: black;
+  width: 5%;
+  height: 300px;
+  border-start-start-radius: 10px;
+  border-end-start-radius: 10px;
+}
+.homeIndicator h1 {
+  transform: translateY(580%) rotate(-90deg);
+  color: white;
+  font-size: 20px;
+  font-weight: 1000;
+}
+.awayIndicator {
+  background-color: lightgrey;
+  width: 5%;
+  height: 300px;
+  border-start-start-radius: 10px;
+  border-end-start-radius: 10px;
+}
+.awayIndicator h1 {
+  transform: translateY(580%) rotate(-90deg);
+  color: rgb(80, 80, 80);
+  font-size: 20px;
+  font-weight: 1000;
+}
+.infoSection {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(23, 23, 23, 0.4);
+  width: 20%;
+  height: 300px;
+}
+.infoSection h3 {
+  transform: translate(20%, 30%);
+  font-size: 20px;
+  font-weight: 900;
+  font-family: interextrabold;
+}
+.infoSection h1 {
+  transform: translate(10%, 15%);
+  font-weight: 900;
+  font-family: interextrabold;
+}
+.infoSection h2 {
+  transform: translate(8%, 10%);
+  font-size: 25px;
+  font-weight: 900;
+  font-family: interextrabold;
+}
+.location {
+  transform: translate(8%, 0%);
+}
+.infoSection p {
+  transform: translate(8%, 20%);
+  font-size: 11px;
+}
+.infoSection img {
+  width: 60%;
+  height: 30%;
+  transform: translate(10%, -40%);
+}
+.rightSide {
+  width: 75%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+}
+.competitorSection {
+  display: flex;
+  background-color: white;
+  border: 1px solid rgba(23, 23, 23, 0.4);
+  width: 40%;
+  height: 200px;
+}
+.competitorSection img {
+  width: 60%;
+  height: 60%;
+  transform: translate(-5%, 30%);
+}
+.competitorSection h1 {
+  transform: translate(-10%, 30%);
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+.lockerVision {
+  border: 1px solid rgba(23, 23, 23, 0.4);
+  background-color: white;
+  transform: translateX(-300%);
+  width: 15%;
+  height: 200px;
+}
+.lockerVision img {
+  width: 60%;
+  height: 70%;
+  transform: translate(35%, 5%);
+}
+.lockerVision p {
+  text-align: center;
+  font-weight: 600;
+  transform: translate(0%, 15%);
+}
+.buyWatch {
+  border: 1px solid rgba(23, 23, 23, 0.4);
+  border-end-end-radius: 10px;
+  background-color: white;
+  width: 120%;
+  height: 100px;
+}
+.bwButton {
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 30px;
+  font-weight: 900;
+  font-size: 15px;
+  width: 20%;
+  height: 50%;
+  transform: translate(10%, 50%);
+}
+
+/* Footer */
+
+footer {
+  background-color: #232323;
+  margin-top: 30px;
+}
+
+.footerContainer {
+  width: 100%;
+  padding: 70px 20px 20px;
+}
+
+.footerNav {
+  margin: 30px 0;
+}
+
+.footerNav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.footerNav ul li a {
+  color: white;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3em;
+  font-family: interbold;
+}
+
+.footerNav ul li a:hover {
+  color: orange;
+}
+
+#footerBottom {
+  color: white;
+  padding: 10px;
+  font-size: 10px;
+  font-family: interlight;
+}
+
+.socialIconsFooter {
+  display: flex;
+  justify-content: center;
+}
+
+.socialIconsFooter a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.socialIconsFooter a i {
+  font-size: 2em;
+  color: black;
+  opacity: 0.9;
+}
+
+.socialIconsFooter a:hover {
+  background-color: #111;
+}
+
+.socialIconsFooter a:hover i {
+  color: white;
+}
