@@ -15,6 +15,8 @@ This is a fan-based website dedicated to the Los Angeles Lakers basketball team.
 - **HTML**: Structured content with semantic tags.
 - **CSS**: Styling using external stylesheets for layout and responsiveness.
 - **JavaScript**: Interactive features for buttons and dynamic content rendering.
+  
+## Setup
 
 1. Clone the repository to your local machine.
 2. Open `index.html` in a browser to view the website.
